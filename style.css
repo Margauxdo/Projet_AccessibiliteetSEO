@@ -362,7 +362,7 @@ a:hover {
     z-index: 2;
 }
 /***modification de la police au dessus de logo***/
-#bloc-0 .container::before .navbar::before .navbar-header::before .keywords::before{
+.navbar-header::before .keywords{
     color: #cccccc;
     font-size: 12px;
 }
@@ -690,9 +690,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/***modification de la taille de la police pour la version mobile***/
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
