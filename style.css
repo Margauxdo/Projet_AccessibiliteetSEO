@@ -231,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgb(244, 244, 244);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -361,21 +361,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-/***modification de la police au dessus de logo***/
-.navbar-header::before .keywords{
-    color: #cccccc;
-    font-size: 12px;
-}
-/***modification de la largeur et de la hauteur des images***/
-.container .img-responsive{
-    width:260px;
-    height:270px;
-}
-.center-block{
-    width: 100px;
-    height: 100px;
-}
-
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -653,7 +638,7 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-/***modification de la couleur du h2 pour le contraste avec le fond***/
+
 h1,
 h2,
 h3,
@@ -666,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: #575757!important;
 }
 
 .container {
@@ -690,9 +675,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-/***modification de la taille de la police pour la version mobile***/
+
 p {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -736,13 +721,9 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
-/***modification de la couleur du H1 pour contrasté avec le fond***/
+
 h1 {
-    color: #F3976C!important;
-}
-.bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper .container bloc-lg .row .col-sm-12 h1{
-    color:white;
-    z-index:3;
+    color: #333333!important;
 }
 
 h4 {
@@ -788,14 +769,13 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-/***modification de la couelur du fond afin d'avoir un contraste suffisant***/
+
 .bgc-atomic-tangerine {
-    background-color: #f3976c9c;
-    
+    background-color: #F3976C;
 }
-/***modification de la couleur du texte avec le fond sur la page 2***/
+
 .tc-white {
-    color: #0000;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -1046,7 +1026,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    }
+}
 
 @media (max-width: 400px) {
     .bloc {
