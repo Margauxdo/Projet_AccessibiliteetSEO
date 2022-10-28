@@ -231,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(244, 244, 244);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -653,7 +653,7 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+/***modification de la couleur du h2 pour le contraste avec le fond***/
 h1,
 h2,
 h3,
@@ -666,7 +666,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -736,9 +736,13 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
-
+/***modification de la couleur du H1 pour contrasté avec le fond***/
 h1 {
-    color: #333333!important;
+    color: #F3976C!important;
+}
+.bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper .container bloc-lg .row .col-sm-12 h1{
+    color:white;
+    z-index:3;
 }
 
 h4 {
@@ -784,13 +788,14 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
+/***modification de la couelur du fond afin d'avoir un contraste suffisant***/
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c9c;
+    
 }
-
+/***modification de la couleur du texte avec le fond sur la page 2***/
 .tc-white {
-    color: #F3976C!important;
+    color: #0000;
 }
 
 .btn-atomic-tangerine {
