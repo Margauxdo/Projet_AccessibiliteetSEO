@@ -361,6 +361,32 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/***modification de design du texte au dessus du logo***/
+#text-logo{
+    font-size: 12px;
+    font-weight: lighter;
+    margin: auto;
+}
+/*** modification de image en texte pour améliorer la performance***/
+.description-agence{
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ blockquote p:last-child{
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+.presentation-realisation-agence{
+    font-size: 15px;
+    font-weight: 600;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -675,9 +701,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/***modification de la taille du texte pour accessibilité***/
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
