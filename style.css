@@ -361,6 +361,21 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/***modification de la police au dessus de logo***/
+#bloc-0 .container::before .navbar::before .navbar-header::before .keywords::before{
+    color: #cccccc;
+    font-size: 12px;
+}
+/***modification de la largeur et de la hauteur des images***/
+.container .img-responsive{
+    width:260px;
+    height:270px;
+}
+.center-block{
+    width: 100px;
+    height: 100px;
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1025,9 +1040,6 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-    .navbar-header .keywords{
-        font-size: x-small;
     }
     }
 
