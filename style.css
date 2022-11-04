@@ -784,9 +784,11 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+/***modif de la taille de image en version responsive***/
 .portfolio-thumb {
     margin-bottom: 24px;
+    width:100%;
+    height:auto;
 }
 
 .portfolio-row {
