@@ -372,10 +372,10 @@ a:hover {
     font-weight: lighter;
     margin: auto;
 }
-/*** modification de image en texte pour améliorer la performance***/
+/*** modification de image en texte pour améliorer la performance + la taille de la police***/
 .description-agence{
     margin: auto;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     width: 70%;
     text-align: center;
@@ -399,7 +399,12 @@ a:hover {
     height: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) 
+{
+    /***modif de la taille de police en version desktop***/
+    .description-agence{
+        font-size: 16px;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -407,16 +412,8 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
-    /***modification menu desktop page 2***/
-    .nav > li{
-        list-style: none;
-        margin-left:-50px;
-    }
-    .nav > li a{
-        text-decoration: none;
-        padding-left:35px;
-    }   
- }    .nav > li .dropdown-menu a,
+
+   .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
@@ -723,7 +720,7 @@ a {
 }
 /***modification de la taille du texte pour accessibilité***/
 p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -732,7 +729,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
@@ -756,7 +753,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -889,6 +886,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    /***modif de la taille de police***/
+    p{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -897,6 +898,10 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+    /***modif de la taille de police***/
+    p{
+        font-size: 14px;
     }
 }
 
@@ -909,6 +914,10 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    /***modif taille de police***/
+    p{
+        font-size: 14px;
     }
 }
 
