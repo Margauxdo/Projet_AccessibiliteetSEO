@@ -797,9 +797,9 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/***modif de la couleur du fond pour le contraste entre l'image de fond et l'ecriture au premier plan***/
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(165, 147, 99);
     padding: 40px 40px 40px 40px;
 }
 
@@ -819,9 +819,9 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+/***modif des couleurs entre le texte et le fond***/
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
