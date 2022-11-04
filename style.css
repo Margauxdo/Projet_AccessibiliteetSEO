@@ -17,6 +17,13 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+/***modifier la couleur pour un meilleur contraste**/
+.col-sm-4 ul li a{
+    color: #fff !important;
+}
+.row .col-sm-4{
+    color: #fff !important;
+}
 
 a:hover {
     text-decoration: none;
@@ -123,7 +130,7 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
+/***modifier la couleur pour un meilleur contraste***/
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -138,7 +145,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
