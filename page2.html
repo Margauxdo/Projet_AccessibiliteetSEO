@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     <!--modification du parcours du fichier au lien du fichier voulu-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/et-line.min.css">
-	<!--ajout des fichier js-->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/et-line.css">
+	<!--ajout et modification des liens des fichier js-->
 	<script type="text/javascript" src="js/blocs.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/formHandler.js"></script>
@@ -22,12 +22,11 @@
 	<script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
 	<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
     <title>page2</title>
 
     
@@ -91,27 +90,28 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
+				<!--modification du formulaire en ajoutant des libelles-->
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
 						<input type="text" name="name" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input type="email" name="e-mail" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="question">
 							Comment nous avez-vous connu ?
 						</label>
 						<input type="text" name="Comment nous avez-vous connu?" class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="text">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea name="message" id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 

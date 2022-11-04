@@ -392,6 +392,7 @@ a:hover {
     font-size: 15px;
     font-weight: 600;
 }
+
 /*** ajout de la width et height des iamges***/
 .bg-banniere{
     width: 100%;
@@ -406,7 +407,16 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
-    .nav > li .dropdown-menu a,
+    /***modification menu desktop page 2***/
+    .nav > li{
+        list-style: none;
+        margin-left:-50px;
+    }
+    .nav > li a{
+        text-decoration: none;
+        padding-left:35px;
+    }   
+ }    .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
