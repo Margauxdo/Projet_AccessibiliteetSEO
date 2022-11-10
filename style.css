@@ -915,10 +915,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    /***modif taille de police***/
-    p{
-        font-size: 14px;
-    }
+   
 }
 
 @media (max-width: 991px) {
