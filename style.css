@@ -821,9 +821,9 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
+/***modifier opacité du fond pour ameliorer le contraste***/
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976cab;
 }
 /***modif des couleurs entre le texte et le fond***/
 .tc-white {
@@ -831,7 +831,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f3976cab;
     color: #FFFFFF!important;
 }
 
