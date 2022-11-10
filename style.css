@@ -805,7 +805,7 @@ h4 {
 }
 /***modif de la couleur du fond pour le contraste entre l'image de fond et l'ecriture au premier plan***/
 .black-background {
-    background-color: rgb(165, 147, 99);
+    background-color: #5E5336;
     padding: 40px 40px 40px 40px;
 }
 
