@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /***modif taille des images***/
-img-responsive portfolio-thumb{
+.portfolio-thumb{
     width: 100%;
     height: 100%;
 }
@@ -427,6 +427,12 @@ a:hover {
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
+    }
+    /***ajout de la width et la height pour image du logo***/
+    .center-block{
+        width:100px;
+        height:100px;
+        margin:auto;
     }
     .nav-center {
         text-align: center;
@@ -893,6 +899,12 @@ h4 {
     /***modif de la taille de police***/
     p{
         font-size: 14px;
+    }
+    /***ajout de la width et height pour image du logo***/
+    .center-block{
+        width:100px;
+        height:100px;
+        margin:auto;
     }
 }
 
