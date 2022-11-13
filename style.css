@@ -6,6 +6,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/***ajout du display font***/
+@font-face {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    src: url("/fonts/fontawesome-webfont.woff2");
+}
 /***modif taille des images***/
 .portfolio-thumb{
     width: 400px;
@@ -592,11 +597,6 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
-}
-/***ajout du display font***/
-@font-face {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    src: url("/fonts/fontawesome-webfont.woff2");
 }
 a[data-lightbox]:hover::before {
     content: "+";
