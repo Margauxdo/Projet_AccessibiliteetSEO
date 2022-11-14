@@ -11,6 +11,10 @@ body {
     font-family:"helvetica" ;
     src: url("fonts/fontawesome-webfont.woff2?v=4.7.0");
 }
+@font-face {
+    font-family:"helvetica" ;
+    src: url("fonts/et-line.woff");
+}
 /***ameliorer le contraste entre le texte et le fond***/
 cite{
     color:#C64A10
