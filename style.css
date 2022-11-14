@@ -597,15 +597,6 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
-/***ajout du display font***/
-@font-face {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    src: url("fonts/fontawesome-webfont.woff2?v=4.7.0");
-}
-@font-face {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;;
-    src: url("fonts/et-line.woff");
-}
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
