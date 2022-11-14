@@ -6,15 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-/***police de texte***/
-@font-face {
-    font-family:"helvetica Neue" ;
-    src: url("fonts/fontawesome-webfont.woff2?v=4.7.0");
-}
-@font-face {
-    font-family:"helvetica Neue" ;
-    src: url("fonts/et-line.woff");
-}
 /***ameliorer le contraste entre le texte et le fond***/
 cite{
     color:#C64A10
